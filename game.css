@@ -1,0 +1,38 @@
+body{
+	box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #0040a3;
+  background-color:#d9e6fa;
+}
+h1{
+	text-align: center;
+}
+.box{
+	display: flex;
+	font-size: 30px;
+	margin-bottom: 5px;
+
+}
+
+.no{
+	margin-left: 5px;
+	background-color: blue;
+	padding: 10px;
+	color: white;
+
+}
+.con{
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: white;
+	width: 100%;
+	padding: 10px;
+	}
+.box:hover{
+   cursor:crosshair;
+   box-shadow: 0 0.4rem 1.4rem 0  #0040a3;
+   transform: translateY(-0.5rem);
+   transition: transform 150ms;
+}
